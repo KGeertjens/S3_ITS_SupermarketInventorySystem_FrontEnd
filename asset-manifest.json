@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/css/main.a617e044.chunk.css",
-    "main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.c6d375a2.chunk.js",
-    "main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.c6d375a2.chunk.js.map",
-    "runtime-main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.e78ba623.js",
-    "runtime-main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.e78ba623.js.map",
-    "static/js/2.98f68949.chunk.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.98f68949.chunk.js",
-    "static/js/2.98f68949.chunk.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.98f68949.chunk.js.map",
-    "static/js/3.3e884e1d.chunk.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/3.3e884e1d.chunk.js",
-    "static/js/3.3e884e1d.chunk.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/3.3e884e1d.chunk.js.map",
+    "main.css": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/css/main.38f8f0f3.chunk.css",
+    "main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.263aa7ce.chunk.js",
+    "main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.263aa7ce.chunk.js.map",
+    "runtime-main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.c0eb6a27.js",
+    "runtime-main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.c0eb6a27.js.map",
+    "static/js/2.5bace840.chunk.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.5bace840.chunk.js",
+    "static/js/2.5bace840.chunk.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.5bace840.chunk.js.map",
     "index.html": "/S3_ITS_SupermarketInventorySystem_FrontEnd/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.98f68949.chunk.js.LICENSE.txt": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.98f68949.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/media/logo.6ce24c58.svg"
+    "static/css/main.38f8f0f3.chunk.css.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/css/main.38f8f0f3.chunk.css.map",
+    "static/js/2.5bace840.chunk.js.LICENSE.txt": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.5bace840.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/media/BAHNSCHRIFT.b00e12e3.TTF",
+    "static/media/apple.2543d0db.jpg": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/media/apple.2543d0db.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e78ba623.js",
-    "static/js/2.98f68949.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.c6d375a2.chunk.js"
+    "static/js/runtime-main.c0eb6a27.js",
+    "static/js/2.5bace840.chunk.js",
+    "static/css/main.38f8f0f3.chunk.css",
+    "static/js/main.263aa7ce.chunk.js"
   ]
 }
