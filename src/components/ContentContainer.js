@@ -10,13 +10,13 @@ const ContentContainer = () => {
     return(
         <div className="contentContainer">
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/S3_ITS_SupermarketInventorySystem_FrontEnd/">
                     <Home />
                 </Route>
-                <Route exact path="/products">
+                <Route exact path="/S3_ITS_SupermarketInventorySystem_FrontEnd/products">
                     <Products />
                 </Route>
-                <Route exact path="/deals">
+                <Route exact path="/S3_ITS_SupermarketInventorySystem_FrontEnd/deals">
                     <Deals />
                 </Route>
                 <Route path="*">

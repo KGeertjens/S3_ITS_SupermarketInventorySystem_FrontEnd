@@ -5,17 +5,17 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            path: "/",
+            path: "/S3_ITS_SupermarketInventorySystem_FrontEnd/",
             text: "Home",
         },
         {
             id: 2,
-            path: "/products",
+            path: "/S3_ITS_SupermarketInventorySystem_FrontEnd/products",
             text: "Products",
         },
         {
             id: 3,
-            path: "/deals",
+            path: "/S3_ITS_SupermarketInventorySystem_FrontEnd/deals",
             text: "Deals",
         },
     ]

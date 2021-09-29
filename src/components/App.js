@@ -8,7 +8,7 @@ import Topbar from "./Topbar"
 const App = () => {
     return(
         <div className="app">
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter>
                 <Topbar />
                 <div className="main">
                     <Navbar />
