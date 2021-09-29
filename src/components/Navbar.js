@@ -5,7 +5,7 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            path: "/S3_ITS_SupermarketInventorySystem_FrontEnd",
+            path: "/S3_ITS_SupermarketInventorySystem_FrontEnd/",
             text: "Home",
         },
         {
