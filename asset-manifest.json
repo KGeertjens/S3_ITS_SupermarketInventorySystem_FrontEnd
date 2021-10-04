@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/css/main.50e55e7e.chunk.css",
-    "main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.16893eba.chunk.js",
-    "main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.16893eba.chunk.js.map",
+    "main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.e5c5ac2b.chunk.js",
+    "main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/main.e5c5ac2b.chunk.js.map",
     "runtime-main.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.c0eb6a27.js",
     "runtime-main.js.map": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/runtime-main.c0eb6a27.js.map",
     "static/js/2.4464ae39.chunk.js": "/S3_ITS_SupermarketInventorySystem_FrontEnd/static/js/2.4464ae39.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.c0eb6a27.js",
     "static/js/2.4464ae39.chunk.js",
     "static/css/main.50e55e7e.chunk.css",
-    "static/js/main.16893eba.chunk.js"
+    "static/js/main.e5c5ac2b.chunk.js"
   ]
 }
