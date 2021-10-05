@@ -11,7 +11,6 @@ const Products = () => {
     useEffect(() => {
         axios.get(baseURL).then((response) => {
             setProducts(response.data)
-            console.log(response.data)
         })
     }, [])
 

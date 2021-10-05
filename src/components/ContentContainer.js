@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom"
 
 import Home from "./pages/Home.js"
 import Products from "./pages/Products.js"
+import ProductPage from "./pages/productComponents/ProductPage"
 import Deals from "./pages/Deals.js"
 import NotFound from "./pages/NotFound.js"
 
@@ -15,6 +16,9 @@ const ContentContainer = () => {
                 </Route>
                 <Route exact path="/products">
                     <Products />
+                </Route>
+                <Route path ="/products/*">
+                    <ProductPage />
                 </Route>
                 <Route exact path="/deals">
                     <Deals />

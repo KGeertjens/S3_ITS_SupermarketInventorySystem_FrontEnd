@@ -152,7 +152,19 @@ body{
     overflow-y: auto;
 }
 
-.productCard{
+.productCard a{
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    width: 100%;
+    height: 100%;
+}
+
+.productList .productCard{
     width: 96%;
     min-width: 400px;
     height: auto;
@@ -165,14 +177,101 @@ body{
     background-color: #e3e3e3;
 }
 
-.productCard img{
-    height: 90%;
+.productCard .imgDiv{
+    height: 110px;
+    width: 110px;
     padding: 10px;
 }
 
-.productCard .productInfo{
+.productCard img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.productInfo{
     padding: 10px;
     white-space: pre-wrap;
+    width: 100%;
+}
+
+.productPage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    padding: 20px;
+}
+
+.productPage img{
+    width: 200px;
+    height: auto;
+}
+
+.productPage .productOverview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.productPage .productOverview h1{
+    font-size: 50px;
+}
+
+.productPage .productOverview h2{
+    font-size: 35px;
+}
+
+.productPage .productInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.productPage .productDetails{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.detail{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    height: 10%;
+}
+
+.detail .icon{
+    height: 32px;
+    width: 32px;
+    color: black;
+    margin-right: 5px;
+}
+
+.lineVert{
+    background-color: black;
+    width: 2px;
+    height: 30px;
+    margin-right: 5px;
+    
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.lineHor{
+    background-color: #7d7d7d;
+    width: 100%;
+    height: 2px;
+    border-radius: 10px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 @media(max-width: 600px){
