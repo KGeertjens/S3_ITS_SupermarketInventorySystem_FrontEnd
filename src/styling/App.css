@@ -16,6 +16,24 @@ img{
     width: auto;
 }
 
+table{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+
+    border-collapse: collapse;
+
+}
+
+td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+
+    font-family: Bahnschrift;
+}
+
+
 html{
     height: 100%;
     width: 100%;
@@ -140,14 +158,21 @@ body{
 
 .productList{
     width: 90%;
-    height: 660px;
+    min-height: 600px;
+    max-height: 600px;
+
+    min-height: 0;
 
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
+    flex-basis: 0;
+
     padding-left: 30px;
     padding-top: 30px;
+
+    align-content: flex-start;
 
     overflow-y: auto;
 }
@@ -165,10 +190,10 @@ body{
 }
 
 .productList .productCard{
-    width: 96%;
-    min-width: 400px;
-    height: auto;
-    max-height: 200px;
+    max-width: 500px;
+    width: 95%;
+
+    height: 130px;
 
     display: flex;
     flex-direction: row;
@@ -190,10 +215,17 @@ body{
     margin-top: 5px;
 }
 
-.productInfo{
+.productCardTitle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.productCard .productInfo{
     padding: 10px;
     white-space: pre-wrap;
-    width: 100%;
+    flex-grow: 1;
 }
 
 .productPage{
@@ -202,6 +234,21 @@ body{
     flex-wrap: nowrap;
 
     padding: 20px;
+}
+
+.productPageBottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    gap: 50px;
+}
+
+.productPage td{
+    height: 40px;
+    font-size: 22px;
+    padding: 8px;
+    padding-right: 10px;
 }
 
 .productPage img{
@@ -224,6 +271,7 @@ body{
 }
 
 .productPage .productInfo{
+    padding-left: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -237,21 +285,23 @@ body{
     gap: 10px;
 
     margin-top: 30px;
+
+    width: 30%;
 }
 
-.detail{
+.productPage .productDeal{
+    margin-top: 30px;
+    width: 40%;
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
-    width:100%;
-    height: 10%;
+
+    gap: 10px;
 }
 
-.detail .icon{
-    height: 32px;
-    width: 32px;
-    color: black;
-    margin-right: 5px;
+.productPage .dealDisplay{
+    width: 100%;
 }
 
 .lineVert{
@@ -274,7 +324,47 @@ body{
     margin-bottom: 10px;
 }
 
-@media(max-width: 600px){
+.price{
+    color:#414141;
+    font-weight: lighter;
+}
+
+.oldPrice{
+    color:#919191;
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.dealPrice{
+    color:#ff8c00;
+    font-weight: lighter;
+}
+
+.dealDescription{
+    background-color: #ff8c00;
+}
+
+.dealDescription h2, p{
+    color: white;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+@media(max-width: 800px){
+    .productList .productCard{
+        height: auto;
+        max-height: 600px;
+        flex-direction: column;
+        min-width: 0px;
+    }
+
+    .productList{
+        min-width: 0px;
+        width: auto;
+        padding-left: 0px;
+    }
+
     .main{
         flex-direction: column;
     }
@@ -302,6 +392,12 @@ body{
     .navbar{
         width: 100%;
         height: auto;
+    }
+}
+
+@media(max-width: 520px){
+    .dealDescription{
+        display: none;
     }
 }
 
